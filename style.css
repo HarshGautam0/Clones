@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.background{
+    background-color: #0f1014;
+    height: 1520px;
+    width: 1349px;
+}
+
+
+
+/* .parent{
+    display: grid;
+    grid-template-rows: auto auto;
+    /* flex-wrap: wrap; 
+    
+} */
+.parent video{
+    border: 0px;
+    margin-left: 15%;
+    object-fit: cover;
+    height: 100vh;
+    width: 84.5%;
+    background: transparent;
+    position: absolute;
+    object-fit: cover;
+}
+
+/* .cont{
+    background-color: white;
+    height: 40px;
+    width: 1345px;
+} */
+
+.parent{
+    position: relative;
+    display: grid;
+    grid-template-rows: auto auto;
+    /* flex-wrap: wrap; */
+    
+}
+.cont{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 90%;
+    margin-top: 45vh;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+.cont p {
+    font-size: 2rem;
+    margin-left: 0%;
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+    
+}
+
+.upload{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 90%;
+    margin-top: 105vh;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+.upload p {
+    font-size: 2rem;
+    margin-left: 0%;
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+}
+.film img{
+    border: 2px solid white;
+    border-radius: 5%;
+    height: 250px;
+    width: 300px;
+    background-size: auto;
+    margin-top: 5px;
+    margin-left: 4.5%;
+    background: #0f1014;
+    position: absolute;
+}
+.film p {
+    color: #e1e6f0;
+    margin-left: 33%;
+    font-size: 1.5rem;
+}
+
+/* .film video{
+    border: 2px solid white;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-left: 09%;
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+    background: #0f1014;
+    position: absolute;
+} */
+
+.movies0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 220px;
+}
+
+
+.box{
+    background-color: aqua;
+    border-radius: 5%;
+    height: 220px;  
+    width: 200px;
+    margin-top: 5vh;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.box:hover {
+    transform: scale(1.2);
+}
+  
+.box img{
+    border-radius: 5%;
+    height: 220px;  
+    width: 200px;
+}
+
+.box:first-child {
+    margin-left: 9%; /* keep the margin-left for the first box */
+    margin-right: 20; /* remove the margin-right for the first box */
+}
+
+.movies1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 220px;
+}
+
+.boxes{
+    background-color: aqua;
+    border-radius: 5%;
+    height: 220px;  
+    width: 200px;
+    margin-top: 12vh;
+    /* margin-left: 9%; */
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+.boxes:hover {
+    transform: scale(1.2);
+}
+.boxes img{
+    border-radius: 5%;
+    height: 220px;  
+    width: 200px;
+}
+.boxes:first-child {
+    margin-left: 9%; /* keep the margin-left for the first box */
+    margin-right: 20; /* remove the margin-right for the first box */
+}
+
+
+/* logo */
+
+.sidebar{
+    border: 2px solid transparent;
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 550px;
+    width: 112px;
+    position: fixed ;
+    
+}
+
+.hover-text {
+    position: relative;
+}
+
+  
+.hover-text1::after {
+    content: "Profile";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text2::after {
+    content: "Search";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text3::after {
+    content: "Home";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text4::after {
+    content: "TV";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text5::after {
+    content: "Movies";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text6::after {
+    content: "Sports";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-text7::after {
+    content: "Categories";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 100px;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.hover-text:hover::after {
+    opacity: 1;
+}
+  
+.my-space {
+    height: 60px;
+    width: 96px;
+    display: flex;
+    /* background-color: #0f1014; */
+    justify-content: center;
+    align-items: center;
+}
+.my-space i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    content: "Search";
+    color: white;
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv{
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tv i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies{
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movies i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports{
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sports i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories{
+    height: 60px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categories i {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 81px;
+    width: 96px;
+    color: aqua;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-pic{
+    background-image: url("logo-d-plus.svg");
+    background-size: cover;
+    height: 55px;
+    width: 75px;
+    position: fixed;
+}
+  
+/* footer */
+.footer {
+    background-color: #0f1014;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 1349px;
+}
+.footer h4 {
+    margin-top: 2.5rem;
+}
+
+.footer1{
+    height: 200px;
+}
+
+.comp-info p {
+    margin-top: 10px;
+}
+
+.web-info p {
+    margin-top: 10px;
+}
+
+.help-info p {
+    margin-top: 10px;
+}
+
+.support-info i {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.copyright-sec{
+    background-color: #0f1014;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 1349px; 
+}
+.copyright-sec i {
+    margin-left: 13%;
+
+}
+
+.copyright-sec a {
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+   
+}
+
+.copyright-sec img {
+    object-fit: cover;
+    height: 90px;
+    width: 350px;
+    margin-left: 5%;
+
+}
