@@ -19,13 +19,7 @@ It focuses on replicating the **layout, design, and user interface** using core 
 - 🖱️ Interactive UI elements using JavaScript  
 - 📱 Responsive layout for different screen sizes  
 
----
 
-## 📷 Demo
-
-![Homepage Screenshot](screenshot.png)
-
----
 
 ## 🛠️ Tech Stack
 - **HTML** – Structure  
