@@ -1,46 +1,84 @@
-# Clones
-Replica websites of popular brands and services, built using HTML, CSS, and JavaScript.
+# 🎬 OTT Platform Homepage Clone (Netflix | Hotstar | Amazon Prime)
 
-E-commerce Website (Amazon Clone)
+## 🌐 Overview
+This project is a **frontend clone of OTT platform homepages** inspired by Netflix, Hotstar, and Amazon Prime Video.  
+It focuses on replicating the **layout, design, and user interface** using core web technologies.
 
-A clone of the popular e-commerce website, Amazon, built using HTML, CSS, and JavaScript.
+---
 
-Features
-- User authentication and authorization
-- Product search and filtering
-- Shopping cart and checkout functionality
-- Responsive design for mobile and desktop devices
+## 🎯 Objective
+- Practice frontend development using HTML, CSS, and JavaScript  
+- Understand UI/UX design of modern OTT platforms  
+- Build a responsive and visually appealing homepage  
 
-Technologies Used
-- Frontend: HTML, CSS, JavaScript
+---
 
-Getting Started
-1. Clone the repository using git clone.
-2. Open the index.html file in a web browser.
+## 🚀 Features
+- 🎨 Modern OTT-style homepage design  
+- 📂 Movie/Show sections (Trending, Popular, etc.)  
+- 🖱️ Interactive UI elements using JavaScript  
+- 📱 Responsive layout for different screen sizes  
 
-Hotstar Clone (Video Streaming Website)
-A clone of the popular video streaming website, Hotstar, built using HTML, CSS, and JavaScript.
+---
 
-Features
-- User authentication and authorization
-- Video search and filtering
-- Video playback and streaming
-- Responsive design for mobile and desktop devices
+## 📷 Demo
 
-Technologies Used
-- Frontend: HTML, CSS, JavaScript
+![Homepage Screenshot](screenshot.png)
 
-Getting Started
-1. Clone the repository using git clone.
-2. Open the index.html file in a web browser.
+---
 
-Contributing
-Contributions are welcome! If you'd like to improve or add features to these clones, please fork this repository and submit a pull request.
+## 🛠️ Tech Stack
+- **HTML** – Structure  
+- **CSS** – Styling and layout  
+- **JavaScript** – Interactivity  
 
-License
-This repository is licensed under the MIT License.
+---
 
-Contact
-If you have any questions or need further assistance, please don't hesitate to contact me.
+## ⚙️ How It Works
+- Designed static homepage layout similar to OTT platforms  
+- Used CSS for styling and responsiveness  
+- Added basic interactivity using JavaScript  
 
-Note: These clones are for educational purposes only and should not be used for commercial purposes.
+---
+
+## 📂 Project Structure
+
+ott-clone/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── README.md
+
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/HarshGautam0/ott-clone.git
+cd ott-clone
+open index.html
+
+```
+
+🔮 Future Improvements
+🔹 Add multiple pages (login, movie details)
+🔹 Integrate API for dynamic content
+🔹 Add backend functionality
+🔹 Deploy the project online
+
+⚠️ Disclaimer
+
+This project is created for educational purposes only and is not affiliated with Netflix, Hotstar, or Amazon Prime.
+
+🙌 Acknowledgment
+
+Inspired by popular OTT platforms to understand frontend design and layout structuring.
+
+📫 Contact
+
+Harsh Gautam
+📧 hg699810@gmail.com
+
+🔗 https://github.com/HarshGautam0
