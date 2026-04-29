@@ -69,7 +69,7 @@ This project is created for educational purposes only and is not affiliated with
 🙌 Acknowledgment
 
 Inspired by popular OTT platforms to understand frontend design and layout structuring.
-```
+
 
 📫 Contact
 
@@ -78,4 +78,4 @@ Harsh Gautam
 📧 hg699810@gmail.com
 
 🔗 https://github.com/HarshGautam0
-```
+
